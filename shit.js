@@ -40,42 +40,11 @@ window.addEventListener('DOMContentLoaded', function()
     if (evt.key === "d" || evt.key === "ArrowRight") moveRight = false;
   });
 
-  scene.onBeforeRenderObservable.add(function() 
-  {
-    
-    if (moveForward) 
-    {
-        console.log("moveForward");
 
-        cube.position.z -= speed;
-    }
-
-    if (moveBackward)
-    {
-      cube.position.z += speed;
-      console.log("moveBackward");
-    } 
-
-    if (moveLeft)
-    {
-      cube.position.x += speed;
-      console.log("moveLeft");
-     
-    } 
-
-    if (moveRight)
-    {
-      cube.position.x -= speed;
-      console.log("moveRight");
-    } 
-  });
     
   
 
-  // Enable physics and gravity
-  const gravityVector = new BABYLON.Vector3(0, -0.5, 0);
-  scene.gravity = gravityVector;
-  scene.collisionsEnabled = true;
+
 
 
 
