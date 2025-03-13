@@ -120,9 +120,6 @@ let app =
         // Run the render loop
         b.engine.runRenderLoop(function() 
         {
-
-
-
             b.scene.render();
         });
     },

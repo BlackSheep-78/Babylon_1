@@ -1,0 +1,10 @@
+{
+  "name": "Babylon",
+  "description": "3D World using baylon.js",
+  "repository": "https://github.com/BlackSheep-78/Babylon_1",  
+  "author": "Blacksheep-78",                           
+  "version": "1.0.0",                             
+  "lastUpdated": "2023-08-15",                     
+  "tags": ["web", "javascript", "3D","babylon.js"],  
+  "isActive": true                                 
+}
